@@ -6,7 +6,7 @@
 }
 
 .moliga-demo {
-    font-family: 'Moliga Demo', serif; 
+    font-family: 'Moliga Demo', Helvetica; 
     font-weight: 400;
 }
 
@@ -24,12 +24,20 @@
 
 body {
     background-color: #EEE7DB;
-    font-family: 'IBM Plex Mono', sans-serif;
+    font-family: 'IBM Plex Mono', Helvetica;
     font-size: 20px;
     overflow-y: auto;
     margin: 0; 
     height: 100%;
     padding-bottom: 0;
+    transform: scale(1);
+    transform-origin: top left;
+}
+
+@media (max-width: 1493px) {
+    body {
+        transform: scale(0.8);
+    }
 }
 
 #hero {
