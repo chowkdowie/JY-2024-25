@@ -38,6 +38,14 @@ body {
     body {
         transform: scale(0.8);
     }
+    .vertical-subtitle {
+        margin-top: 0;
+        white-space: nowrap;
+    }
+    end{
+        margin-bottom: 0px;
+    }
+  
 }
 
 #hero {
@@ -68,7 +76,7 @@ body {
 }
 
 .image-container {
-    position:absolute;
+    position:relative;
     right:0;
     bottom: 0;
     z-index:5;
@@ -80,11 +88,19 @@ body {
     margin-left: 25px;
     position: relative; 
     z-index: 1;
+    white-space: nowrap;
+    padding-bottom: 0px;
 }
 
 .horizontal-text{
     font-size: 250px;
     transform: scaleY(1.35);
+
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
 }
 
 .link-container{
@@ -128,9 +144,10 @@ body {
 
 .hello-container {
     display: flex;
-    margin-top: 50px;
+    margin-top: -400px;
     color:#EEE7DB;
     font-size: 130px;
+    margin-bottom: 0;
     
 }
 .hello-1 {
@@ -163,6 +180,7 @@ body {
     display: flex;
     flex-direction:column;
     color:#EEE7DB;
+    white-space: normal
 }
 
 .hello-text-1 {
@@ -274,12 +292,20 @@ body {
 
 .works-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-left: 20px;
-    margin-top:40px;
-    gap: 50px;
+    flex-wrap: wrap;
+    /* gap: 50px; */
 }
+
+.works-container-1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px; 
+    flex-wrap: nowrap;
+}
+
 
 
 .works-container img:hover {
@@ -426,7 +452,7 @@ body {
 .connect-1 {
     background: black;
     width: 950px;
-    height: 200px;
+    height: 210px;
     border-top-right-radius: 150px;
     position: relative;
 }
