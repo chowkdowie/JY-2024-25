@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Moliga Demo";
-    src: url('public/fonts/MoligaDEMO.otf') format('opentype');
+    src: url('public/fonts/moliga-demo.regular.woff') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 .moliga-demo {
-    font-family: 'Moliga Demo', Helvetica; 
+    font-family: 'Moliga Demo', Helvetica, Arial; 
     font-weight: 400;
 }
 
