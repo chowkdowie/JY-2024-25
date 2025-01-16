@@ -88,8 +88,6 @@ body {
     margin-left: 25px;
     position: relative; 
     z-index: 1;
-    white-space: nowrap;
-    padding-bottom: 0px;
 }
 
 .horizontal-text{
