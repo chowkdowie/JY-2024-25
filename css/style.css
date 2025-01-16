@@ -80,6 +80,7 @@ body {
     margin-left: 25px;
     position: relative; 
     z-index: 1;
+    white-space: nowrap;
 }
 
 .horizontal-text{
