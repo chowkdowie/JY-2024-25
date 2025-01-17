@@ -22,17 +22,17 @@ function typeText(elementID, text, speed){
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    function updateButtonText() {
-        const button = document.querySelector('.link.green');
-        if (window.innerWidth <= 1493) {
-            button.textContent = 'EMAIL';
-        } else {
-            button.textContent = 'COPY MY EMAIL';
-        }
-    }
+    // function updateButtonText() {
+    //     const button = document.querySelector('.link.green');
+    //     if (window.innerWidth <= 1493) {
+    //         button.textContent = 'EMAIL';
+    //     } else {
+    //         button.textContent = 'COPY MY EMAIL';
+    //     }
+    // }
 
-    updateButtonText();
-    window.addEventListener('resize', updateButtonText);
+    // updateButtonText();
+    // window.addEventListener('resize', updateButtonText);
 
     setTimeout(() => {
         typeText("typewriter-1", "HELLO", 150);

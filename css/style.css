@@ -1,15 +1,24 @@
-@font-face {
+/* @font-face {
     font-family: "Moliga Demo";
     src: url('public/fonts/moliga-demo.regular.woff') format('woff'),
     url('public/fonts/moliga-demo.regular.woff2') format('woff2'),
     url('public/fonts/moliga-demo.regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-}
+} */
 
-.moliga-demo {
+/* .moliga-demo {
     font-family: 'Moliga Demo', Helvetica, Arial, sans-serif; 
     font-weight: 400;
+} */
+
+.anybody {
+    font-family: "Anybody", Arial, serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 .ibm-plex-mono-regular {
@@ -52,7 +61,8 @@ body {
 
 #hero {
     display:flex;
-    font-family: "Moliga Demo";
+    /* font-family: "Moliga Demo"; */
+    font-family: "Anybody";
     position: relative;
 }
 
@@ -88,13 +98,14 @@ body {
     display: flex;
     flex-direction:column;
     margin-left: 25px;
+    margin-top: 54px;
     position: relative; 
     z-index: 1;
 }
 
 .horizontal-text{
-    font-size: 250px;
-    transform: scaleY(1.35);
+    font-size: 192.5px;
+    transform: scaleY(1.4);
     white-space: nowrap;
 
 }
@@ -102,6 +113,7 @@ body {
 .test {
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
 .link-container{
@@ -178,6 +190,7 @@ body {
 .hello-text {
     padding-left: 30px;
     padding-right: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction:column;
     color:#EEE7DB;
@@ -185,8 +198,8 @@ body {
 }
 
 .hello-text-1 {
-    font-family: "Moliga Demo";
-    font-size:130px;
+    font-family: "Anybody";
+    font-size:100px;
 }
 
 .hello-text-2{
@@ -198,7 +211,6 @@ body {
 
 #experience {
     display:flex;
-    font-family: "Moliga Demo";
     position: relative;
 }
 
@@ -216,14 +228,14 @@ body {
 }
 
 .tabs{
-    font-family: "Moliga Demo";
+    font-family: "Anybody";
     color: #EEE7DB;
     justify-content: center;
     width: 600px;
     height: 100px;
     border:none;    
     cursor: pointer;
-    font-size:80px;
+    font-size:60px;
     --p: 50px;
     aspect-ratio: 3/2;
     clip-path: polygon(var(--p) 0,calc(100% - var(--p)) 0,100% 100%,0 100%);
@@ -456,11 +468,12 @@ body {
     height: 210px;
     border-top-right-radius: 150px;
     position: relative;
+    padding-top: 15px;
 }
 
 .connect-2 {
     background:black;
-    margin-top: 200px;
+    margin-top: 180px;
     width:1280px;
     height:130px;
     position: absolute;
