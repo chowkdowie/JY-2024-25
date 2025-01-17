@@ -1,17 +1,3 @@
-/* @font-face {
-    font-family: "Moliga Demo";
-    src: url('public/fonts/moliga-demo.regular.woff') format('woff'),
-    url('public/fonts/moliga-demo.regular.woff2') format('woff2'),
-    url('public/fonts/moliga-demo.regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-} */
-
-/* .moliga-demo {
-    font-family: 'Moliga Demo', Helvetica, Arial, sans-serif; 
-    font-weight: 400;
-} */
-
 .anybody {
     font-family: "Anybody", Arial, serif;
     font-optical-sizing: auto;
@@ -61,7 +47,6 @@ body {
 
 #hero {
     display:flex;
-    /* font-family: "Moliga Demo"; */
     font-family: "Anybody";
     position: relative;
 }
