@@ -1,12 +1,14 @@
 @font-face {
     font-family: "Moliga Demo";
-    src: url('public/fonts/moliga-demo.regular.woff') format('opentype');
+    src: url('public/fonts/moliga-demo.regular.woff') format('woff'),
+    url('public/fonts/moliga-demo.regular.woff2') format('woff2'),
+    url('public/fonts/moliga-demo.regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 .moliga-demo {
-    font-family: 'Moliga Demo', Helvetica, Arial; 
+    font-family: 'Moliga Demo', Helvetica, Arial, sans-serif; 
     font-weight: 400;
 }
 
@@ -93,6 +95,7 @@ body {
 .horizontal-text{
     font-size: 250px;
     transform: scaleY(1.35);
+    white-space: nowrap;
 
 }
 
