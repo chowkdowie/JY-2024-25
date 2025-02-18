@@ -10,9 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <div id="works">
+    <div id="hero" style="margin-bottom: 50px;">
         <div class="vertical">
             <a href="index.html" style="text-decoration: none; color:inherit;">
                 <div class="vertical-text">PORTFOLIO</div>    
@@ -20,13 +23,385 @@
             <div class="vertical-subtitle">TAKE A LOOK AT <br> WHAT I HAVE DONE</div>
             <img src="public/images/logoblack.svg" width="75" height="40" style="padding-top:30px">
         </div>
-        
-        <div class="pdf-container">
-                <a href="https://drive.google.com/file/d/1_irBjTg5VjGWCxNQ0J_Kyc2KmvndI-5v/view?usp=sharing" target="_blank">
-                    https://drive.google.com/file/d/1_irBjTg5VjGWCxNQ0J_Kyc2KmvndI-5v/view?usp=sharing
-                </a>
-            <embed src="public/files/Instagram Redesign.pdf" type="application/pdf">
+
+        <div class="horizontal" style="margin-top: 65px;">
+            <div class="study">
+                UI/UX CASE STUDY: INSTAGRAM <br> REDESIGN 
+            </div> 
+            <div class="bubble">
+                <div class="bubble-container">
+                    <button class="bubble-text green" style="height:60px;">TIMELINE</button>
+                    <button class="bubble-text green" style="height:60px;">June 2024 (1 week)</button>
+                </div>
+                <div class="bubble-container">
+                    <button class="bubble-text black" style="height: 60px;">SKILLS</button>
+                    <button class="bubble-text black" style="height: 60px;">User Research, Wireframing, Prototyping, Usability Testing, Figma</button>
+                </div>
+                <div class="bubble-container">
+                    <button class="bubble-text blue" style="height:60px;">TEAM</button> 
+                    <button class="bubble-text blue" style="height:60px;">1 UX/UI Designer</button> 
+                </div>
+                <div class="bubble-container" style="margin-top: 20px;">
+                    <a href="https://www.figma.com/design/P8DX9hiQnBcTMWM1xbwIdN/Instagram-App-Redesign?node-id=0-1&t=sf0pRUqrvcxWwvKI-1" target="_blank" class="link yellow" style="height:40px;">SEE PROTOTYPE</a> 
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> Project Context</div>
+                <div class="right"><b>What is the case study objective?</b> <br>
+                    Instagram is a popular photo and video social media app. Analyze the current Instagram app and develop a refreshed design.
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> The Process</div>
+                <div class="right-2">
+                    <div class="right-3">
+                        <b>1. Empathize</b>
+                        Primary and secondary
+                        research, heuristic
+                        evaluation, problem
+                        statement.
+                    </div>
+                    <div class="right-3">
+                        <b>2. Conceptualize</b>
+                        Wireframing low-
+                        fidelity sketches
+                        and user flow.
+                    </div>
+                    <div class="right-3">
+                        <b>3. Prototype</b>
+                        Prototyping on
+                        Figma and getting
+                        user feedback.
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="bubble">
+                <div class="bubble-container">
+                    <button class="bubble-text-2 white" style="height:110px; margin-right: 70px;">
+                        Being a daily Instagram user I had sufficient knowledge about the technology. From
+                        this, I wanted to gain a deeper understanding of other users’ pain points and
+                        frustrations with the app.                    
+                    </button>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> Initial Research</div>
+                <div class="right"><b>What we wanted to learn?</b> <br>
+                    Before I started defining my problem I researched online on
+                    various platforms to see common pain points for Instagram users
+                    including Quora, Reddit, blogs, etc. Most feedback I saw led back
+                    to a common issue that Instagram’s <b>content is not filtered well:</b>
+                </div>
+            </div>
+            <div class="bubble">
+                <div class="bubble-container">
+                    <div class="sticky">
+                        <button class="bubble-text green" style="height:60px;">CONTENT MANAGEMENT</button> 
+                        <button class="bubble-text white" style="height:90px;">Algorithm sucks <br>(ads, sponsors)</button> 
+                        <button class="bubble-text white" style="height:90px;">Miss content <br>from following</button> 
+                        <button class="bubble-text white" style="height:60px;">Reels are overloaded</button> 
+                        <button class="bubble-text white" style="height:60px;">Hastags are useless</button> 
+                        <button class="bubble-text white" style="height:90px;">Not seeing content <br>you want</button> 
+                    </div>
+                    <div class="sticky">
+                        <button class="bubble-text black" style="height:60px;">ENGAGEMENT</button> 
+                        <button class="bubble-text white" style="height:60px;">Feel diconnected from others</button> 
+                        <button class="bubble-text white" style="height:60px;">Post engagement is slow</button> 
+                    </div>
+                    <div class="sticky">
+                        <button class="bubble-text yellow" style="height:60px;">OTHER</button> 
+                        <button class="bubble-text white" style="height:60px;">Concerns for privacy</button> 
+                        <button class="bubble-text white" style="height:60px;">Mental health issues</button> 
+                        <button class="bubble-text white" style="height:60px;">Doom scrolling</button> 
+                    </div>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> Heuristic Evaluation</div>
+                <div class="right">
+                    Regarding the interface design, I conducted a heuristic
+                    evaluation based on Jakob Nielson’s principles. Instagram
+                    performed poorly on:<br>
+                    <b>a) Consistency and standards</b><br>
+                    • Certain icons are redundant and the same icon can be used for
+                    different functions
+                   <br>
+                   <b>b) Flexibility and efficiency</b><br>
+                    • Users are limited in what they can do during the process of
+                    posting and editing posted content
+                </div>
+            </div>
+            <div class="bubble">
+                <div class="bubble-container">
+                    <button class="bubble-text-2 white" style="height:250px; margin-right: 70px;">
+                        From the previous steps, the defined problem statement for this design project is:<br><br>
+                        <b>Users find it challenging to explore content they are interested in and feel
+                        disconnected on the current Instagram app with the interface lacking flexibility and
+                        efficiency, this leads to decreased engagement and user satisfaction.</b><br><br>
+                        At this point I have compiled some redesign aspects, however, I want to confirm and
+                        further explore user pain points through user research.                
+                    </button>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> Project Context</div>
+                <div class="right"><b>What was the interview method?</b> <br>
+                    I carried out a semi-structured interview approach to be able to
+                    gather both specific answers that I could extrapolate into data,
+                    as well as dive into their own thoughts about the app through
+                    open-ended discussions. I conducted 1-on-1 informal interviews
+                    with 5 Instagram users aged 18-20, with an average daily usage of
+                    1.8 hours.<br><br>                
+                    <b>Interview Takeways (x/5 mentioned)</b> <br>
+                    • Enhance the algorithm for content recommendations such as
+                    interest-based channels or curated collections.<br>
+                    • Integrate more advanced photo and video editing features
+                    directly into the app.<br>
+                    • Integrate more easy to use modes/features that help users
+                    manage their screen time, such as usage summaries, time limits,
+                    and gentle reminders to take breaks.
+
+                </div>
+            </div>
+            <div class="bubble">
+                <div class="bubble-container" style="padding-right:60px">
+                    <div class="sticky">
+                        <button class="bubble-text green" style="height:90px;">IMPROVE CONTENT <br>DISCOVERY (4/5)</button> 
+                        <button class="bubble-text white" style="height:300px;">
+                            "After viewing a post <br> about dogs once or twice, <br>when I refreshed my <br>explore page 
+                            it was <br> only dog related content <br>and I had to scroll <br>for a while to find other
+                            topics of interest."
+                        </button> 
+                        
+                    </div>
+                    <div class="sticky">
+                        <button class="bubble-text black" style="height:90px;">FLEXIBILITY IN POST MANAGEMENT (3/5)</button> 
+                        <button class="bubble-text white" style="height:180px;">Post editing tools,<br>
+                            saving posts, <br>story
+                            viewing and editing
+                            problems
+                        </button> 
+
+                    </div>
+                    <div class="sticky">
+                        <button class="bubble-text yellow" style="height:90px;">TIME MANAGEMENT CONCERNS (3/5)</button> 
+                        <button class="bubble-text white" style="height:90px;">Concerns about doomscrolling</button> 
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left">Personas</div>
+                <div class="right">
+                    It should be noted that these user personas were developed based
+                    on research and interviews conducted which focuses on the <b>age
+                    group 18-24</b>, thus, my personas also fall in this demographic in
+                    order for an accurate depiction. For future iteration of this
+                    project the interviewee selection would account for other age
+                    demographics to ensure that the design is reflective of the
+                    majority of users.
+                </div>
+            </div>
+            
+            <div class="bubble">
+                    <button class="bubble-text-2 white" style="height:260px; width: 95%;">
+                        <b style="color: black;">THE PASSIVE CONSUMER</b><br>
+                        <b>Motivation:</b><br>
+                        <i>
+                            • Keep up to date with accounts they follow (friends, family, influencers,
+                            creators), see things about various topics they enjoy, pass time<br>
+                            • Mainly for viewing content (posts, stories, reels)    
+                        </i><br> 
+                        <b>Frustrations:</b><br>
+                        <i>
+                            • Instagram feed is very repetitive and not accurate for all their interests, making
+                            it hard to explore new content and causing them to revert back to scrolling on
+                            reels 
+                        </i> 
+                    </button>
+                    
+            </div>
+            <div class="bubble">
+                <button class="bubble-text-2 white" style="height:280px; width: 95%;">
+                    <b style="color: black;">THE MESSENGER</b><br>
+                    <b>Motivation:</b><br>
+                    <i>
+                        • Remain connected with friends and family, use mostly as a messaging app and to see
+                        others’ life update<br>
+                        • Consciously tries to limit their time on the app to prevent “doom scrolling” as
+                        that happens occasionally   
+                    </i><br> 
+                    <b>Frustrations:</b><br>
+                    <i>
+                        • Easy to get distracted by the app when using, and sometimes miss posts from
+                        friends and family when not scrolling all the time
+                    </i> 
+                </button>
+            </div>
+            <div class="bubble">
+                <button class="bubble-text-2 white" style="height:240px; width: 95%;">
+                    <b style="color: black;">THE CREATOR</b><br>
+                    <b>Motivation:</b><br>
+                    <i>
+                        • Markets her small bakery by posting stories, reels, posts on the bakery account
+                        (while still using her own account daily) and actively engages with followers/
+                        commenters.
+                    </i><br> 
+                    <b>Frustrations:</b><br>
+                    <i>
+                        • Inflexible post/stories editing feature after they are posted, sometimes the app
+                        crashes and she loses her stories halfway through making the post
+                    </i> 
+                </button>
+            <div class="study-text">
+                <div class="left">Wireframing</div>
+                <div class="right">
+                    I created many <b>low-fidelity sketches</b> for the pages and the
+                    features I wanted to change or implement. Through tracking the
+                    <b>user flow</b> I identified the pages involved for the redesign
+                    regarding the project objectives. Due to time constraints, I
+                    focused on completing two out of the three objectives.
+                    <div class="bubble">
+                        <button class="bubble-text green" style="height:90px;">1. CATEGORIZING THE EXPLORE CONTENT DISCOVERY/DISPLAY</button>
+                        <button class="bubble-text black" style="height:60px;">2. ADDING POST EDITING FEATURES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left">
+                    1. Categorizing the <br>
+                    Explore Content<br>
+                    Discovery/Display
+                </div>
+                <div class="right">
+                    I took inspiration from other apps such as Pinterest, Reddit,
+                    Twitter, that would ask you to select topics of interests to show
+                    you on your feed. With <b>users starting on the explore page</b>, I drew
+                    three designs, settling on <b>C</b> as it was the most straightforward/
+                    efficient layout which made it visually appealing due to its
+                    simplicity.
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left">
+                    Design Decision: Explore Page
+                </div>
+            </div>
+
+            <div class="bubble">
+                <div class="bubble-container" style="padding-right:60px">
+                    <div class="sticky" style="width: 30%;" >
+                        <img src="public/images/works/image 11.png" style="height: 350px; width: 250px; border-radius: 15px;">
+                        <button class="bubble-text blue" style="height:60px;">✖ Space inefficient</button>   
+                    </div>
+                    <div class="sticky" style="width:30%">
+                        <img src="public/images/works/image 12.png" style="height:350px; width: 400px; border-radius: 15px;">
+                        <button class="bubble-text green" style="height:60px;">✔ Bar saves space</button> 
+                        <button class="bubble-text blue" style="height:60px;">✖ Requires extra step</button> 
+                    </div>
+                    <div class="sticky"  style="width: 30%;">
+                        <img src="public/images/works/image 10.png" style="height:350px; width:250px; border-radius: 15px;">
+                        <button class="bubble-text green" style="height:60px;">✔ Space efficient</button> 
+                        <button class="bubble-text green" style="height:60px;">✔ Less steps than B</button> 
+                    </div>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> User Flow</div>
+                <div class="right"><b>How to see/change a user’s category feed page?</b> <br>
+                    After the user clicks on a category bubble it brings them to that
+                    category feed page. To add a new category, click the search bar
+                    at the top. This opens up a page split up between account and
+                    categories. The account side operates the same as the current
+                    Instagram search bar. The categories side will let users to see
+                    the categories they are following and pinned (pinned ones appear
+                    on the top of the category feed page).                
+                </div>
+            </div>
+            <img src="public/images/works/image 9.png" style="margin-top: 30px; border-radius: 15px; width:95%;">
+            <div class="study-text">
+                <div class="left"> 2. Adding Post <br>
+                    Editing Features
+                </div>
+                <div class="right">
+                    Starting from the current Instagram’s New Post Page, I added an
+                    additional feature: A preview button.          
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left"> User Flow
+                </div>
+                <div class="right">
+                    <b>How to preview post?</b><br>
+                    The preview button is at the top of the New Post bar. The button
+                    is placed at the top and near the photo carousel based on design
+                    heuristic of placing related elements close together. It avoids
+                    being placed at the bottom to prevent users from accidentally
+                    clicking the “Share” button when trying to preview.       
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left">Prototype</div>
+                <div class="right">
+                    I used Figma to prototype the design including the two user flows.
+                    <div class="small-works-layout" style="margin-top: 30px;">
+                        <a href="https://www.figma.com/design/P8DX9hiQnBcTMWM1xbwIdN/Instagram-App-Redesign?node-id=0-1&t=9aj3Q5t0UWdumJIR-1" target="_blank">
+                        <button class="small-works" style="width: 650px; height: 550px;">
+                            <img src="public/images/works/insta 2.png" class="small-works-image">
+                                <div class="small-black-corner" style="width:40%; height: 30%;;">
+                                    <div class="small-corner-description" style="margin-top: 30px;">
+                                        <div class="works-title">CLICK!</div>
+                                    </div>
+                                </div>
+                            </button> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left">Typography, <br>
+                    Colour Palette</div>
+                <div class="right">
+                    Following UI/UX standards for a consistent and cohesive
+                    interface, I used the same typography and colour palette from the
+                    the current Instagram app. Additionally, I did not make any
+                    additional design changes to styles as during user research all
+                    users rated the current interface high. Stemming from this point,
+                    the new designed features utilized <b>rounded buttons</b> and
+                    interactive components for <b>clicking and horizontal swipin</b>g.
+                    <img src="public/images/works/type.png" style="border-radius:15px ; margin-top: 30px;">
+                </div>
+            </div>
+            <div class="study-text">
+                <div class="left">Usability Testing</div>
+                <div class="right">
+                    <b>What was the interview method?</b><br>
+                    I instructed 5 users to carry out a certain task and asked them
+                    to narrate their thoughts and actions. I recorded these and
+                    noticed any areas of struggle as well as feedback on the new
+                    incorporated functions.<br><br>
+                    Here is where challenges arose. Due to the time constraints, I
+                    only provided them with a Figma prototype, however, sometimes the
+                    user would be confused on what they press, or if they didn’t
+                    press directly on the button nothing would happen. In these
+                    instances I had to provide some clarification and choose to
+                    categorize this challenge as either a Figma challenge or as a
+                    redesign challenge to not skew my results.<br><br>
+                    <b>Testing Takeaways</b><br>
+                    • The interest-based channel following system works well, and is
+                    something users expected to have <br>
+                    • It was unclear to users that the category bubble can be pressed
+                    again to bring use back to the Explore page <br>
+                    • The preview button function was rated favourably <br><br>
+                    Overall, the design was able to address a few user pain points
+                    including content overload, and posting features.
+                </div>
+            </div>
+
         </div>
+           
+        
     </div>
     
     
