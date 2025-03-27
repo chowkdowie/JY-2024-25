@@ -13,243 +13,246 @@
     <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/bdc.js"></script>
+
 </head>
-<body>
-    <div id="hero" style="margin-bottom: 50px;">
-        <div class="vertical">
-            <a href="index.html" style="text-decoration: none; color:inherit;">
-                <div class="vertical-text">PORTFOLIO</div>    
-            </a>
-            <div class="vertical-subtitle">TAKE A LOOK AT <br> WHAT I HAVE DONE</div>
-            <img src="public/images/logoblack.svg" width="75" height="40" style="padding-top:30px">
-        </div>
-
-        <div class="horizontal" style="margin-top: 65px;">
-            <div class="study">
-                USER RESEARCH: BDC PIPELINE & <br> DASHBOARD IMPROVEMENT
-            </div> 
-            <div class="bubble">
-                <div class="bubble-container">
-                    <button class="bubble-text green" style="height:60px;">TIMELINE</button>
-                    <button class="bubble-text green" style="height:60px;">November - December 2024</button>
-                </div>
-                <div class="bubble-container">
-                    <button class="bubble-text black" style="height: 60px;">SKILLS</button>
-                    <button class="bubble-text black" style="height: 60px;">User Research, User Interviews, Miro, Teams</button>
-                </div>
-                <div class="bubble-container">
-                    <button class="bubble-text blue" style="height:60px;">TEAM</button> 
-                    <button class="bubble-text blue" style="height:60px;">1 UX Design Specialist, 1 Co-op UX Designer</button> 
-                </div>
+<body onload="checkPassword()">
+    <div id="protected-content" style="display: none;">
+        <div id="hero" style="margin-bottom: 50px;">
+            <div class="vertical">
+                <a href="index.html" style="text-decoration: none; color:inherit;">
+                    <div class="vertical-text">PORTFOLIO</div>    
+                </a>
+                <div class="vertical-subtitle">TAKE A LOOK AT <br> WHAT I HAVE DONE</div>
+                <img src="public/images/logoblack.svg" width="75" height="40" style="padding-top:30px">
             </div>
-            <div class="study-text">
-                <div class="left"> Project Context</div>
-                <div class="right"><b>What is the Business Development Consulting Team?</b> <br>
-                    The Business Development and Consulting (BDC) Unit is the first point of contact for Central Agencies I&IT Cluster (CAC) clients and business partners seeking I&IT business solutions, advice, information or issue escalation support.
-                    <br><br>
-                    <b>Background</b><br>
-                    The BDC team utilizes a Power BI pipeline and dashboard on SharePoint that filters initiatives based on various categories.<br><br>
-                    Information from this UX research will be given to next term’s co-op students to start brainstorming and designing the new BDC pipeline and dashboard.
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left"> The Process</div>
-                <div class="right-2">
-                    <div class="right-3">
-                        <b>1. Identify <br> Research Goals</b>
-                        • Research Plan <br>
-                        • Recruitment Plan
-                    </div>
-                    <div class="right-3">
-                        <b>2. User Interviews</b>
-                        • Moderating and <br>Notetaking sessions
-                    </div>
-                    <div class="right-3">
-                        <b>3. Data Analyzation <br> and Reporting</b>
-                        • Cleaning Data <br>
-                        • Desk Research <br>
-                        • UX Research Report
-                    </div> 
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left" style="color:#4B67E5"> Problem Statement</div>
-                <div class="right">
-                    BDC wanted to enhance and develop new pipeline dashboards to be
-                    shared with CAC branches and ministry partners that will help
-                    support decision making, demand planning, and the holistic
-                    alignment of stakeholders around active initiatives. However,
-                    there were data gaps and inconsistencies in the CAC work
-                    intake process, which complicated the mapping of these dashboards.
-                </div>
-            </div>
-            <div class="bubble">
-                <div class="bubble-container">
-                    <button class="bubble-text-2 white" style="height:100px; margin-right: 70px;">
-                        How can we customize the BDC pipeline/dashboard to better support decision-making and initiatives alignment for our CAC and ministry partners?
-                    </button>
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left"> Establish Research <br>Objectives</div>
-                <div class="right"><b>What we wanted to learn?</b> <br>
-                    The research focused on understanding the workings and challenges of the pipeline, the data captured, and the dashboard.
-                    <br>
-                    <b style="color: #4B67E5;">• Understand</b> what data is valuable for an initiative and its purpose.<br>
-                    <b style="color:#4B67E5">• Understand</b> how the current repository pipeline works.<br>
-                    <b style="color: #4B67E5;">• Understand</b> how users feel about the current dashboard and what they hope to see on future dashboards.
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left"> Identify <br>Participants</div>
-                <div class="right">
-                    We identified potential BDC pipeline/dashboard users as all stakeholders that work with BDC for work intake (primarily
-                    manager level). This included CAC branches and ministry partners to ensure comprehensive representation of their experiences/wants
-                    for the pipeline and dashboard.<br><br>
-                    <b>Who we talked to</b><br>
-                    <b style="color: #4B67E5;">User group #1: CAC Branches (13 participants)</b><br>
-                  <br>
-                    <b style="color: #4B67E5;">User group #2: CAC Ministry Partners (6 participants)</b>
-                </div>
-            </div>
-           
-            <div class="study-text">
-                <div class="left">Research Method</div>
-                <div class="right">
-                    As we had limited knowledge about the intricacies of how BDC
-                    worked with different stakeholders, we decided that the optimal
-                    way to collect qualitative data of stakeholder experience would
-                    be through <b>semi-structured 1:1 or group interviews</b>. The
-                    flexibility of semi-structured interviews allowed us to follow up
-                    on different inquiries as the stakeholders had varying
-                    experiences and needs. Originally sessions were planned for 1:1
-                    for more tailored conversations, however, due to scheduling
-                    difficulties there were occasional group interviews ranging from
-                    2-4 participants. All group interviews had participants from the
-                    same group (branch or ministry) so that their feedback could be
-                    consolidated together. Sessions ranged from 30-45 min long,
-                    hosted on <b>Teams</b>.
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left">Developing <br>Interview Questions</div>
-                <div class="right">
-                    We developed open-ended interview questions addressing our
-                    research objectives, and as well as a facilitator guide that was
-                    used for all interviews for consistency. We iteratively updated
-                    the questions based off our prior interview experiences, and
-                    customized some of them for specific ministry partners that had
-                    distinct needs/unique workflows compared to CAC branches.
-                </div>
-            </div>
-            <div class="bubble">
-                <div class="bubble-container">
-                    <button class="bubble-text-2 white" style="height:130px; width: 95%;">
-                        <b>Understand</b> what data is valuable for an initiative and its purpose.<br>
-                        <i>
-                            • Tell me about how you track new and ongoing work.<br>
-                            • What are the main data points that you and your team would like to capture per
-                            initiative?    
-                        </i>
-                    </button>
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left">Interview Process</div>
-                <div class="right">
-                    A total of <b>19 stakeholders were engaged in 12 stakeholder
-                    interviews</b>. Due to time constraints and availability, we were not
-                    able to talk to one representative from each ministry’s divisions.
-                    I was either the moderator or notetaker for the sessions. Each
-                    session was joined by a BDC team member as a spectator.
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left">
-                    <img src="public/images/Star.png" width="33" height="30">
-                    My Moderating <br>Experience</div>
-                <div class="right">
-                    <b>Challenges and lessons</b><br>
-                    Moderating stakeholder interviews occasionally presented challenges.<br><br>
-                    <b style="color: #4B67E5;">1. Managing user curiosity</b><br>
-                    Sometimes participants were highly curious about the specific
-                    outcomes of the product, which occasionally disrupted the flow of
-                    the interview. Since our research was primarily exploratory at
-                    this stage, I learned to steer the discussion back to our
-                    research objectives by acknowledging their curiosity and
-                    reiterating the purpose of the session.<br>
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left">Data Analysis</div>
-                <div class="right">
-                    Interview notes were taken on <b>Miro</b>  and tagged by the interview
-                    number. I conducted <b>thematic analysis</b> of all sticky notes through
-                    <b>affinity mapping</b> into main themes and subthemes.
-                </div>
-            </div>
-           
-            <div class="study-text">
-                <div class="left">Desk Research</div>
-                <div class="right">
-                    <b>Supplementary research methods</b><br>
-                    Additional research on existing reports made by BDC were
-                    conducted including:<br>
-                    • Quarterly updates & Executive briefings<br><br>
-                    I looked at recurring initiative details shared with BDC
-                    stakeholder’s in these reports and added them to the Miro board
-                    for consideration.
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left">Final UX Report</div>
-                <div class="right">
-                    <b>User Stories</b><br>
-                    While completing the UX report (PowerPoint slideshow), we noticed
-                    that similar points were often repeated throughout sections. This
-                    was due to the interconnected nature of the BDC pipeline and
-                    dashboard, as the dashboard relies on pipeline data. <br><br>
-                    To address this, we restructured the report into a series of
-                    themed user stories. This new format reduced repetition of small
-                    details, provided a clearer narrative, and better connected the
-                    "what" (user needs and insights) with the "why" (underlying
-                    reasons and broader context). Themed user stories would also make
-                    it easier for future co-op students to understand and translate
-                    our findings into designs.<br><br>
-                    <b>Impact</b><br>
-                    The UX research provided the BDC team with valuable insights into
-                    diverse stakeholder needs during the CAC work intake process, and
-                    connect them to actionable recommendations. Key takeaways
-                    clarified the desired features and functionalities for future
-                    dashboard enhancements, while a pipeline data points summary
-                    highlighted current data requiring consistent updates and
-                    identified missing data essential for decision-making and
-                    resource planning.<br><br>
-                </div>
-            </div>
-            <div class="study-text">
-                <div class="left">
-                    <img src="public/images/Star.png" width="33" height="30">
-                    Reflections</div>
-                <div class="right">
-                    <b>Challenges and lessons</b><br>
-                    Looking back, I wish I had spent more time clarifying the BDC's
-                    specific goals for an improved pipeline/dashboard before diving
-                    into stakeholder needs. This would have allowed me to better
-                    align the wishes of both parties and create a stronger bridge
-                    between stakeholder feedback and organizational objectives during
-                    interviews and final reporting.
-                    This project taught me valuable lessons about navigating
-                    ambiguity, honing my user interview skills, and conducting
-                    thematic data analysis!
-                </div>
-            </div>
-
-        </div>
-           
-        
-    </div>
     
+            <div class="horizontal" style="margin-top: 65px;">
+                <div class="study">
+                    USER RESEARCH: BDC PIPELINE & <br> DASHBOARD IMPROVEMENT
+                </div> 
+                <div class="bubble">
+                    <div class="bubble-container">
+                        <button class="bubble-text green" style="height:60px;">TIMELINE</button>
+                        <button class="bubble-text green" style="height:60px;">November - December 2024</button>
+                    </div>
+                    <div class="bubble-container">
+                        <button class="bubble-text black" style="height: 60px;">SKILLS</button>
+                        <button class="bubble-text black" style="height: 60px;">User Research, User Interviews, Miro, Teams</button>
+                    </div>
+                    <div class="bubble-container">
+                        <button class="bubble-text blue" style="height:60px;">TEAM</button> 
+                        <button class="bubble-text blue" style="height:60px;">1 UX Design Specialist, 1 Co-op UX Designer</button> 
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left"> Project Context</div>
+                    <div class="right"><b>What is the Business Development Consulting Team?</b> <br>
+                        The Business Development and Consulting (BDC) Unit is the first point of contact for Central Agencies I&IT Cluster (CAC) clients and business partners seeking I&IT business solutions, advice, information or issue escalation support.
+                        <br><br>
+                        <b>Background</b><br>
+                        The BDC team utilizes a Power BI pipeline and dashboard on SharePoint that filters initiatives based on various categories.<br><br>
+                        Information from this UX research will be given to next term’s co-op students to start brainstorming and designing the new BDC pipeline and dashboard.
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left"> The Process</div>
+                    <div class="right-2">
+                        <div class="right-3">
+                            <b>1. Identify <br> Research Goals</b>
+                            • Research Plan <br>
+                            • Recruitment Plan
+                        </div>
+                        <div class="right-3">
+                            <b>2. User Interviews</b>
+                            • Moderating and <br>Notetaking sessions
+                        </div>
+                        <div class="right-3">
+                            <b>3. Data Analyzation <br> and Reporting</b>
+                            • Cleaning Data <br>
+                            • Desk Research <br>
+                            • UX Research Report
+                        </div> 
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left" style="color:#4B67E5"> Problem Statement</div>
+                    <div class="right">
+                        BDC wanted to enhance and develop new pipeline dashboards to be
+                        shared with CAC branches and ministry partners that will help
+                        support decision making, demand planning, and the holistic
+                        alignment of stakeholders around active initiatives. However,
+                        there were data gaps and inconsistencies in the CAC work
+                        intake process, which complicated the mapping of these dashboards.
+                    </div>
+                </div>
+                <div class="bubble">
+                    <div class="bubble-container">
+                        <button class="bubble-text-2 white" style="height:100px; margin-right: 70px;">
+                            How can we customize the BDC pipeline/dashboard to better support decision-making and initiatives alignment for our CAC and ministry partners?
+                        </button>
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left"> Establish Research <br>Objectives</div>
+                    <div class="right"><b>What we wanted to learn?</b> <br>
+                        The research focused on understanding the workings and challenges of the pipeline, the data captured, and the dashboard.
+                        <br>
+                        <b style="color: #4B67E5;">• Understand</b> what data is valuable for an initiative and its purpose.<br>
+                        <b style="color:#4B67E5">• Understand</b> how the current repository pipeline works.<br>
+                        <b style="color: #4B67E5;">• Understand</b> how users feel about the current dashboard and what they hope to see on future dashboards.
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left"> Identify <br>Participants</div>
+                    <div class="right">
+                        We identified potential BDC pipeline/dashboard users as all stakeholders that work with BDC for work intake (primarily
+                        manager level). This included CAC branches and ministry partners to ensure comprehensive representation of their experiences/wants
+                        for the pipeline and dashboard.<br><br>
+                        <b>Who we talked to</b><br>
+                        <b style="color: #4B67E5;">User group #1: CAC Branches (13 participants)</b><br>
+                      <br>
+                        <b style="color: #4B67E5;">User group #2: CAC Ministry Partners (6 participants)</b>
+                    </div>
+                </div>
+               
+                <div class="study-text">
+                    <div class="left">Research Method</div>
+                    <div class="right">
+                        As we had limited knowledge about the intricacies of how BDC
+                        worked with different stakeholders, we decided that the optimal
+                        way to collect qualitative data of stakeholder experience would
+                        be through <b>semi-structured 1:1 or group interviews</b>. The
+                        flexibility of semi-structured interviews allowed us to follow up
+                        on different inquiries as the stakeholders had varying
+                        experiences and needs. Originally sessions were planned for 1:1
+                        for more tailored conversations, however, due to scheduling
+                        difficulties there were occasional group interviews ranging from
+                        2-4 participants. All group interviews had participants from the
+                        same group (branch or ministry) so that their feedback could be
+                        consolidated together. Sessions ranged from 30-45 min long,
+                        hosted on <b>Teams</b>.
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left">Developing <br>Interview Questions</div>
+                    <div class="right">
+                        We developed open-ended interview questions addressing our
+                        research objectives, and as well as a facilitator guide that was
+                        used for all interviews for consistency. We iteratively updated
+                        the questions based off our prior interview experiences, and
+                        customized some of them for specific ministry partners that had
+                        distinct needs/unique workflows compared to CAC branches.
+                    </div>
+                </div>
+                <div class="bubble">
+                    <div class="bubble-container">
+                        <button class="bubble-text-2 white" style="height:130px; width: 95%;">
+                            <b>Understand</b> what data is valuable for an initiative and its purpose.<br>
+                            <i>
+                                • Tell me about how you track new and ongoing work.<br>
+                                • What are the main data points that you and your team would like to capture per
+                                initiative?    
+                            </i>
+                        </button>
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left">Interview Process</div>
+                    <div class="right">
+                        A total of <b>19 stakeholders were engaged in 12 stakeholder
+                        interviews</b>. Due to time constraints and availability, we were not
+                        able to talk to one representative from each ministry’s divisions.
+                        I was either the moderator or notetaker for the sessions. Each
+                        session was joined by a BDC team member as a spectator.
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left">
+                        <img src="public/images/Star.png" width="33" height="30">
+                        My Moderating <br>Experience</div>
+                    <div class="right">
+                        <b>Challenges and lessons</b><br>
+                        Moderating stakeholder interviews occasionally presented challenges.<br><br>
+                        <b style="color: #4B67E5;">1. Managing user curiosity</b><br>
+                        Sometimes participants were highly curious about the specific
+                        outcomes of the product, which occasionally disrupted the flow of
+                        the interview. Since our research was primarily exploratory at
+                        this stage, I learned to steer the discussion back to our
+                        research objectives by acknowledging their curiosity and
+                        reiterating the purpose of the session.<br>
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left">Data Analysis</div>
+                    <div class="right">
+                        Interview notes were taken on <b>Miro</b>  and tagged by the interview
+                        number. I conducted <b>thematic analysis</b> of all sticky notes through
+                        <b>affinity mapping</b> into main themes and subthemes.
+                    </div>
+                </div>
+               
+                <div class="study-text">
+                    <div class="left">Desk Research</div>
+                    <div class="right">
+                        <b>Supplementary research methods</b><br>
+                        Additional research on existing reports made by BDC were
+                        conducted including:<br>
+                        • Quarterly updates & Executive briefings<br><br>
+                        I looked at recurring initiative details shared with BDC
+                        stakeholder’s in these reports and added them to the Miro board
+                        for consideration.
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left">Final UX Report</div>
+                    <div class="right">
+                        <b>User Stories</b><br>
+                        While completing the UX report (PowerPoint slideshow), we noticed
+                        that similar points were often repeated throughout sections. This
+                        was due to the interconnected nature of the BDC pipeline and
+                        dashboard, as the dashboard relies on pipeline data. <br><br>
+                        To address this, we restructured the report into a series of
+                        themed user stories. This new format reduced repetition of small
+                        details, provided a clearer narrative, and better connected the
+                        "what" (user needs and insights) with the "why" (underlying
+                        reasons and broader context). Themed user stories would also make
+                        it easier for future co-op students to understand and translate
+                        our findings into designs.<br><br>
+                        <b>Impact</b><br>
+                        The UX research provided the BDC team with valuable insights into
+                        diverse stakeholder needs during the CAC work intake process, and
+                        connect them to actionable recommendations. Key takeaways
+                        clarified the desired features and functionalities for future
+                        dashboard enhancements, while a pipeline data points summary
+                        highlighted current data requiring consistent updates and
+                        identified missing data essential for decision-making and
+                        resource planning.<br><br>
+                    </div>
+                </div>
+                <div class="study-text">
+                    <div class="left">
+                        <img src="public/images/Star.png" width="33" height="30">
+                        Reflections</div>
+                    <div class="right">
+                        <b>Challenges and lessons</b><br>
+                        Looking back, I wish I had spent more time clarifying the BDC's
+                        specific goals for an improved pipeline/dashboard before diving
+                        into stakeholder needs. This would have allowed me to better
+                        align the wishes of both parties and create a stronger bridge
+                        between stakeholder feedback and organizational objectives during
+                        interviews and final reporting.
+                        This project taught me valuable lessons about navigating
+                        ambiguity, honing my user interview skills, and conducting
+                        thematic data analysis!
+                    </div>
+                </div>
+    
+            </div>
+               
+            
+        </div>
+    </div>
     
 </body>
 
